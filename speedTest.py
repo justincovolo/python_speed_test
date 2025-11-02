@@ -1,4 +1,5 @@
 import speedtest
+#pip install speedtest-cli
 import tkinter as tk
 
 def check_internet_speed():
