@@ -43,12 +43,12 @@ btn_TestSpeed = tk.Button(window, text = 'Test Internet Speeds', width = 20, com
 btn_TestSpeed.pack()
 
 #Labels For Results
-txt_Download = tk.Label(window, textvariable = strvar_download)
-txt_Download.pack() 
-txt_upload = tk.Label(window, textvariable = strvar_upload)
-txt_upload.pack()
-txt_ping = tk.Label(window, textvariable = strvar_ping)
-txt_ping.pack()  
+lbl_Download = tk.Label(window, textvariable = strvar_download)
+lbl_Download.pack() 
+lbl_upload = tk.Label(window, textvariable = strvar_upload)
+lbl_upload.pack()
+lbl_ping = tk.Label(window, textvariable = strvar_ping)
+lbl_ping.pack()  
 
 #run program
 window.mainloop()
